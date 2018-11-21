@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/vendor/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/vendor/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/css/vendor/fontawesome/all.min.css">
+    <link rel="stylesheet" href="/css/master.css"/>
+    <link rel="stylesheet" href="/css/pages/${pageName}.css"/>
+    <title>Positron</title>
+</head>
+<body>
+<div class="container">
+    #parse($contentTemplate)
+</div>
+<!-- Optional JavaScript -->
+<script type="text/javascript" src="/js/vendor/momentjs/moment.js"></script>
+<script type="text/javascript" src="/js/vendor/knockout/knockout-3.4.2.js"></script>
+<script type="text/javascript" src="/js/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/vendor/notifyjs/notify.min.js"></script>
+<script type="text/javascript" src="/js/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    $!scriptBlock
+</body>
+</html>
